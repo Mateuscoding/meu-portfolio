@@ -1,8 +1,24 @@
 .menu{
     padding: 10px;
     background-color: var(--cinza-claro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    /* background-color: red; */
+}
+
+.btn-mobile{
+    background-image: url(../assets/btn-home.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
 }
 
 header{
-    text-align: right;
+    /* text-align: right; */
 }
