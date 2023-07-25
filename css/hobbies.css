@@ -1,16 +1,16 @@
-.skills{
-    /* height: 100vh; */
+.hobbies{
+    height: 100vh;
     padding:20px 10px;
     text-align: center;
 }
 
-.skills__title{
+.hobbies__title{
     font-weight: bold;
     color: var(--cinza-claro);
-    margin: 20px 0px;
+    margin: 10px 0px;
 
 }
-.skills__line{
+.hobbies__line{
     min-width: 300px;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
     padding: 0 10px;
 }
 
-.skills__img{
+.hobbies__img{
     width: 4rem;
     height: 4rem;
     background-color: var(--cor-de-fundo);
@@ -33,11 +33,11 @@
     font-size: 2rem;
 }
 
-.skills__img:hover{
+.hobbies__img:hover{
     /* background-color: var(--cinza-claro); */
     color: var(--vermelho-claro);
 }
-    .skills__name{
+    .hobbies__name{
     display: none;
 }
 
