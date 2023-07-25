@@ -1,0 +1,29 @@
+.title__div{
+    background-color: var(--cinza-claro);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 200px;    
+    font-size: .7rem;
+    text-align: center;
+    padding: 0px 4%;
+    position: relative;
+}    
+                          
+.title__profile{
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+}
+.title__bio span{
+    color: var(--vermelho-claro);
+}
+
+.title__subsection{
+    margin-top: 10px;
+    font-size: .9em;
+}
+

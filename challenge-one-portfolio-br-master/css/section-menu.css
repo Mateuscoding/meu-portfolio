@@ -1,0 +1,17 @@
+section.menu{
+    background-color: var(--cinza-claro);
+    width: 100%;
+    padding: 0 4%;
+    margin: 0;
+}
+
+header{
+    text-align: right;
+    /* margin-right: 15px; */
+    padding-top: 5px;
+    font-size: .7rem;
+    /* height: 40px; */
+}
+nav{
+    display: none;
+}
