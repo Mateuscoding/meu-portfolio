@@ -1,0 +1,31 @@
+.skills{
+    height: 100vh;
+    padding:30px 10px;
+    text-align: center;
+}
+
+.skills__title{
+    font-weight: bold;
+    color: var(--cinza-claro);
+    margin: 10px 0px;
+
+}
+.skills__line{
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: ce;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.skills__img{
+    width: 20px;
+    background-color: var(--cor-de-fundo);
+    /* border: 1px solid var(--cinza-claro); */
+    /* padding: 20px; */
+    box-shadow: 0px 0px 14px -14px #282828;}
+
+.skills__name{
+    display: none;
+}

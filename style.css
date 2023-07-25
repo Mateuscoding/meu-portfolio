@@ -25,15 +25,10 @@ body {
     padding: 0;
     line-height: 1;
     color: var(--cinza);
-    /* width: 100vw; */
+    width: 100%;
 
-    /* background-color: #191919; */
 }
-header{
-    /* display: flex; */
-    /* display: inline; */
-    /* text-align: right; */
-}
+
 ol, ul,li {
     list-style: none;
 }
@@ -42,7 +37,8 @@ a{
     color: var(--cor-de-link);
 }
 .menu__title span{
-    color: var(--vermelho-claro);    ;
+    color: var(--vermelho-claro);
+    font-weight: bold;
 }
 /*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
 de utiliza-la. 

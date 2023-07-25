@@ -1,0 +1,8 @@
+.menu{
+    padding: 10px;
+    background-color: var(--cinza-claro);
+}
+
+header{
+    text-align: right;
+}
