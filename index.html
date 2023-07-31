@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="./css/academic.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- <link rel="stylesheet" href="css/footer.css"> -->
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -256,6 +258,49 @@
     </div>
  </section>
 
-<script src="validate.js"></script>
+  <!-- Sessão de Contato -->
+  
+  <section class="formcontato">
+    <div id="contato" class="formcontato__contact">
+        <div class="formcontato--info">
+            <img class="formcontato__img" src="assets\contact_image.png">
+        </div>
+        <div class="formcontato__text">
+            <div class="formcontato__contact__title">
+                <h2 class="formcontato__title">Contato</h2>
+            </div>
+            <div class="formcontato__contact__paragraph">
+                <p class="formcontato__paragraph">Quer entrar em contato comigo?</p>
+                <p class="formcontato__paragraph">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </p>
+            </div>
+            <form class="formcontato__form" id="formulario">
+                    <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                    <input class="formcontato__input" type="email" id="email" placeholder="Email">
+                    <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                    <button class="formcontato__botao">Enviar mensagem</button>
+            </form>
+            <!-- <div class="btn-form">
+                <button onclick="btnBackForm()">
+                    &larr;	
+                </button>
+                <button onclick="btnNextForm()">
+                    &rarr;
+                </button>
+
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<!-- Sessão de Footer/Rodapé-->
+<section class="footer">
+    <div class="footer__rodape">
+        <p>Desenvolvido por Mateus Bezerra</p>
+        <p>2022</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
